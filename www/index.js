@@ -12,7 +12,8 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);  		
     },
 	
-    onDeviceReady: function() {  	           
+    onDeviceReady: function() {  
+	    alert("Hai Rupa");
 		   alert(cordova.plugins.uid.IMEI);
     }
 	
